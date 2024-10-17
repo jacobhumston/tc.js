@@ -8,7 +8,8 @@
     "scripts": {
         "test": "node test/index.js",
         "format": "npx prettier ./ --write",
-        "build": "tsc"
+        "build": "tsc",
+        "build-docs": "npx typedoc --entryPoints ./src --plugin typedoc-plugin-markdown --out ./docs"
     },
     "repository": {
         "type": "git",
@@ -22,9 +23,12 @@
     "homepage": "https://github.com/jacobhumston/tc.js#readme",
     "devDependencies": {
         "prettier": "^3.3.3",
+        "typedoc": "^0.26.10",
+        "typedoc-plugin-markdown": "^4.2.9",
         "typescript": "^5.6.3"
     },
     "files": [
-        "build/"
+        "build/",
+        "docs/"
     ]
 }

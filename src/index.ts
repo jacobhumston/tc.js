@@ -63,6 +63,4 @@ export function convertToTotal(time: AvailableConversions) {
     return convert(time).microseconds;
 }
 
-
-
 export { conversions };
