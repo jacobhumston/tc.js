@@ -1,0 +1,30 @@
+{
+    "name": "tc.js",
+    "version": "1.0.0",
+    "description": "A very simple module that helps convert time. Such as seconds to minutes.",
+    "type": "module",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "test": "node test/index.js",
+        "format": "npx prettier ./ --write",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jacobhumston/tc.js.git"
+    },
+    "author": "Jacob Humston",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jacobhumston/tc.js/issues"
+    },
+    "homepage": "https://github.com/jacobhumston/tc.js#readme",
+    "devDependencies": {
+        "prettier": "^3.3.3",
+        "typescript": "^5.6.3"
+    },
+    "files": [
+        "build/"
+    ]
+}
