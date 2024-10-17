@@ -1,5 +1,5 @@
 {
-    "name": "tc.js",
+    "name": "@jacobhumston/tc.js",
     "version": "1.0.0",
     "description": "A very simple module that helps convert time. Such as seconds to minutes.",
     "type": "module",
