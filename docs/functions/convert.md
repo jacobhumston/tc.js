@@ -12,7 +12,7 @@ Converts the provided time values to all available conversions.
 
 ## Parameters
 
-• **time**: `AvailableConversions`
+• **time**: [`AvailableConversions`](../interfaces/AvailableConversions.md)
 
 The time to convert.
 
@@ -24,4 +24,4 @@ The converted time values.
 
 ## Defined in
 
-[index.ts:8](https://github.com/jacobhumston/tc.js/blob/79a5a3b0a72caa4bc5975a04426fec9285a7dafb/src/index.ts#L8)
+convert.ts:8

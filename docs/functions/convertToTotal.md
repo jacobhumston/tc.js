@@ -8,11 +8,12 @@
 
 > **convertToTotal**(`time`): `number`
 
-Converts the provided time values to the total amount of microseconds.
+Converts the provided time values to microseconds.
+Same as `convertTo(time, 'microseconds')`.
 
 ## Parameters
 
-• **time**: `AvailableConversions`
+• **time**: [`AvailableConversions`](../interfaces/AvailableConversions.md)
 
 The time to convert.
 
@@ -24,4 +25,4 @@ The total amount of microseconds.
 
 ## Defined in
 
-[index.ts:62](https://github.com/jacobhumston/tc.js/blob/79a5a3b0a72caa4bc5975a04426fec9285a7dafb/src/index.ts#L62)
+convert.ts:62

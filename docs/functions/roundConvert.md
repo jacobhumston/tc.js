@@ -12,7 +12,7 @@ Rounds the converted time values to the specified precision.
 
 ## Parameters
 
-• **time**: `AvailableConversions`
+• **time**: [`AvailableConversions`](../interfaces/AvailableConversions.md)
 
 The time to convert and round.
 
@@ -28,4 +28,4 @@ The rounded converted time values.
 
 ## Defined in
 
-[index.ts:34](https://github.com/jacobhumston/tc.js/blob/79a5a3b0a72caa4bc5975a04426fec9285a7dafb/src/index.ts#L34)
+convert.ts:34

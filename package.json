@@ -1,6 +1,6 @@
 {
     "name": "@jacobhumston/tc.js",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A very simple module that helps convert time. Such as seconds to minutes.",
     "type": "module",
     "main": "build/index.js",
@@ -9,7 +9,9 @@
         "test": "node test/index.js",
         "format": "npx prettier ./ --write",
         "build": "tsc",
-        "build-docs": "npx typedoc --entryPoints ./src --plugin typedoc-plugin-markdown --out ./docs"
+        "build-docs": "npx typedoc --entryPoints ./src --plugin typedoc-plugin-markdown --out ./docs",
+        "clean": "del-cli build/ docs/",
+        "compile": "npm run clean && npm run build && npm run build-docs && npm run format"
     },
     "repository": {
         "type": "git",
@@ -22,6 +24,7 @@
     },
     "homepage": "https://github.com/jacobhumston/tc.js#readme",
     "devDependencies": {
+        "del-cli": "^6.0.0",
         "prettier": "^3.3.3",
         "typedoc": "^0.26.10",
         "typedoc-plugin-markdown": "^4.2.9",
