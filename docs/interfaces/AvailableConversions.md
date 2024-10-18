@@ -19,7 +19,7 @@ The amount of centuries to provide.
 
 #### Defined in
 
-[conversions.ts:56](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L56)
+[conversions.ts:56](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L56)
 
 ---
 
@@ -31,7 +31,7 @@ The amount of days to provide.
 
 #### Defined in
 
-[conversions.ts:46](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L46)
+[conversions.ts:46](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L46)
 
 ---
 
@@ -41,7 +41,7 @@ The amount of days to provide.
 
 #### Defined in
 
-[conversions.ts:54](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L54)
+[conversions.ts:54](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L54)
 
 ---
 
@@ -53,7 +53,7 @@ The amount of hours to provide.
 
 #### Defined in
 
-[conversions.ts:44](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L44)
+[conversions.ts:44](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L44)
 
 ---
 
@@ -65,7 +65,7 @@ The amount of microseconds to provide.
 
 #### Defined in
 
-[conversions.ts:36](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L36)
+[conversions.ts:36](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L36)
 
 ---
 
@@ -77,7 +77,7 @@ The amount of milliseconds to provide.
 
 #### Defined in
 
-[conversions.ts:38](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L38)
+[conversions.ts:38](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L38)
 
 ---
 
@@ -89,7 +89,7 @@ The amount of minutes to provide.
 
 #### Defined in
 
-[conversions.ts:42](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L42)
+[conversions.ts:42](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L42)
 
 ---
 
@@ -101,7 +101,7 @@ The amount of months to provide.
 
 #### Defined in
 
-[conversions.ts:50](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L50)
+[conversions.ts:50](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L50)
 
 ---
 
@@ -113,7 +113,7 @@ The amount of seconds to provide.
 
 #### Defined in
 
-[conversions.ts:40](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L40)
+[conversions.ts:40](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L40)
 
 ---
 
@@ -125,7 +125,7 @@ The amount of weeks to provide.
 
 #### Defined in
 
-[conversions.ts:48](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L48)
+[conversions.ts:48](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L48)
 
 ---
 
@@ -137,4 +137,4 @@ The amount of years to provide.
 
 #### Defined in
 
-[conversions.ts:52](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L52)
+[conversions.ts:52](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L52)

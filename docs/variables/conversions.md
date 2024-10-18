@@ -81,4 +81,4 @@ The amount of microseconds in a year.
 
 ## Defined in
 
-[conversions.ts:5](https://github.com/jacobhumston/tc.js/blob/6d66e13e302e63f8bdbc05fea5c3d15f79d70053/src/conversions.ts#L5)
+[conversions.ts:5](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L5)

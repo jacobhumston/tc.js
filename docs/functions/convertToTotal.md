@@ -25,4 +25,4 @@ The total amount of microseconds.
 
 ## Defined in
 
-convert.ts:62
+[convert.ts:62](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/convert.ts#L62)

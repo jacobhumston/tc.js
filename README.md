@@ -9,7 +9,7 @@ Documentation can be found in the [docs](/docs/globals.md) folder.
 Here is an example of how to convert time:
 
 ```js
-import { convert, floorConvert, roundConvert } from '../build/index.js';
+import { convert, floorConvert, roundConvert } from '@jacobhumston/tc.js';
 
 const time = { minutes: 300, seconds: 30, milliseconds: 500 }; // Units of time to convert
 

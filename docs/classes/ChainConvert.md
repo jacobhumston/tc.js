@@ -28,7 +28,7 @@ The time to chain.
 
 #### Defined in
 
-chain.ts:15
+[chain.ts:15](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L15)
 
 ## Methods
 
@@ -52,7 +52,7 @@ The time to add.
 
 #### Defined in
 
-chain.ts:77
+[chain.ts:77](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L77)
 
 ---
 
@@ -80,7 +80,7 @@ The unit of the time to add.
 
 #### Defined in
 
-chain.ts:153
+[chain.ts:153](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L153)
 
 ---
 
@@ -96,7 +96,7 @@ Clones this chain.
 
 #### Defined in
 
-chain.ts:134
+[chain.ts:134](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L134)
 
 ---
 
@@ -112,7 +112,7 @@ Converts the time values of this chain.
 
 #### Defined in
 
-chain.ts:36
+[chain.ts:36](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L36)
 
 ---
 
@@ -136,7 +136,7 @@ The value of the unit.
 
 #### Defined in
 
-chain.ts:59
+[chain.ts:59](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L59)
 
 ---
 
@@ -154,7 +154,7 @@ The total amount of microseconds.
 
 #### Defined in
 
-chain.ts:67
+[chain.ts:67](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L67)
 
 ---
 
@@ -178,7 +178,7 @@ The time to divide.
 
 #### Defined in
 
-chain.ts:116
+[chain.ts:116](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L116)
 
 ---
 
@@ -206,7 +206,7 @@ The unit of the time to divide.
 
 #### Defined in
 
-chain.ts:189
+[chain.ts:189](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L189)
 
 ---
 
@@ -222,7 +222,7 @@ Floors the time values of this chain to the nearest whole number.
 
 #### Defined in
 
-chain.ts:50
+[chain.ts:50](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L50)
 
 ---
 
@@ -238,7 +238,7 @@ Gets the time values of this chain.
 
 #### Defined in
 
-chain.ts:22
+[chain.ts:22](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L22)
 
 ---
 
@@ -258,7 +258,7 @@ Get a specific unit from this chain.
 
 #### Defined in
 
-chain.ts:29
+[chain.ts:29](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L29)
 
 ---
 
@@ -282,7 +282,7 @@ The time to multiply.
 
 #### Defined in
 
-chain.ts:103
+[chain.ts:103](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L103)
 
 ---
 
@@ -310,7 +310,7 @@ The unit of the time to multiply.
 
 #### Defined in
 
-chain.ts:177
+[chain.ts:177](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L177)
 
 ---
 
@@ -326,7 +326,7 @@ Resets the time in this chain.
 
 #### Defined in
 
-chain.ts:126
+[chain.ts:126](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L126)
 
 ---
 
@@ -346,7 +346,7 @@ Rounds the time values of this chain to the specified precision.
 
 #### Defined in
 
-chain.ts:43
+[chain.ts:43](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L43)
 
 ---
 
@@ -370,7 +370,7 @@ The time to subtract.
 
 #### Defined in
 
-chain.ts:90
+[chain.ts:90](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L90)
 
 ---
 
@@ -398,7 +398,7 @@ The unit of the time to subtract.
 
 #### Defined in
 
-chain.ts:165
+[chain.ts:165](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L165)
 
 ---
 
@@ -415,4 +415,4 @@ This is the same as calling `JSON.stringify(chain.get())`.
 
 #### Defined in
 
-chain.ts:142
+[chain.ts:142](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/chain.ts#L142)
