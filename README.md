@@ -2,6 +2,10 @@
 
 **very** simple module that converts time. (Ex; ms -> seconds)
 
+```bash
+npm install @jacobhumston/tc.js
+```
+
 Documentation can be found at https://jacobhumston.github.io/tc.js/globals
 
 # Examples
