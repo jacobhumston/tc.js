@@ -16,7 +16,7 @@ const time = { minutes: 300, seconds: 30, milliseconds: 500 }; // Units of time 
 console.log(convert(time).hours); // 5.008472222222222
 console.log(roundConvert(time, 2).hours); // 5.01
 console.log(floorConvert(time).hours); // 5
-console.log(convertTo(time, 'seconds')); // 18030.5 (Same as "convert(time).seconds".)
+console.log(convertTo(time, 'seconds')); // 18030.5 (Same as "convert(time).seconds")
 ```
 
 You can also use a chain to simplify adding and subtracting units of time.

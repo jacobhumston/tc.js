@@ -6,7 +6,7 @@
 
 # Class: ChainConvert
 
-Defined in: [chain.ts:7](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L7)
+Defined in: [chain.ts:7](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L7)
 
 A class that chains conversions together.
 
@@ -16,7 +16,7 @@ A class that chains conversions together.
 
 > **new ChainConvert**(`time`): `ChainConvert`
 
-Defined in: [chain.ts:15](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L15)
+Defined in: [chain.ts:15](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L15)
 
 Creates a new chain.
 
@@ -38,7 +38,7 @@ The time to chain.
 
 > **add**(`time`): `ChainConvert`
 
-Defined in: [chain.ts:82](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L82)
+Defined in: [chain.ts:82](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L82)
 
 Adds time to this chain.
 This does not modify the total, instead it's by unit.
@@ -62,7 +62,7 @@ The time to add.
 
 > **addTotal**(`time`, `unit`): `ChainConvert`
 
-Defined in: [chain.ts:158](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L158)
+Defined in: [chain.ts:158](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L158)
 
 Adds time to the total of this chain.
 Note that this will modify the total, not the individual units.
@@ -92,7 +92,7 @@ The unit of the time to add.
 
 > **clone**(): `ChainConvert`
 
-Defined in: [chain.ts:139](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L139)
+Defined in: [chain.ts:139](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L139)
 
 Clones this chain.
 
@@ -106,7 +106,7 @@ Clones this chain.
 
 > **convert**(): `Record`\<`"microseconds"` \| `"milliseconds"` \| `"seconds"` \| `"minutes"` \| `"hours"` \| `"days"` \| `"weeks"` \| `"months"` \| `"years"` \| `"decades"` \| `"centuries"`, `number`\>
 
-Defined in: [chain.ts:37](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L37)
+Defined in: [chain.ts:37](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L37)
 
 Converts the time values of this chain.
 Uses [`convert`](../functions/convert.md).
@@ -121,7 +121,7 @@ Uses [`convert`](../functions/convert.md).
 
 > **convertTo**(`unit`): `number`
 
-Defined in: [chain.ts:63](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L63)
+Defined in: [chain.ts:63](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L63)
 
 Convert the time values from this chain to a specific unit.
 Uses [`convertTo`](../functions/convertTo.md).
@@ -146,7 +146,7 @@ The value of the unit.
 
 > **convertTotTotal**(): `number`
 
-Defined in: [chain.ts:72](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L72)
+Defined in: [chain.ts:72](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L72)
 
 Convert to the total amount of microseconds from this chain.
 Uses [`convertToTotal`](../functions/convertToTotal.md).
@@ -163,7 +163,7 @@ The total amount of microseconds.
 
 > **divide**(`time`): `ChainConvert`
 
-Defined in: [chain.ts:121](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L121)
+Defined in: [chain.ts:121](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L121)
 
 Divides time in this chain.
 This does not modify the total, instead it's by unit.
@@ -187,7 +187,7 @@ The time to divide.
 
 > **divideTotal**(`time`, `unit`): `ChainConvert`
 
-Defined in: [chain.ts:194](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L194)
+Defined in: [chain.ts:194](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L194)
 
 Divides the total of this chain.
 Note that this will modify the total, not the individual units.
@@ -217,7 +217,7 @@ The unit of the time to divide.
 
 > **floorConvert**(): `Record`\<`"microseconds"` \| `"milliseconds"` \| `"seconds"` \| `"minutes"` \| `"hours"` \| `"days"` \| `"weeks"` \| `"months"` \| `"years"` \| `"decades"` \| `"centuries"`, `number`\>
 
-Defined in: [chain.ts:53](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L53)
+Defined in: [chain.ts:53](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L53)
 
 Floors the time values of this chain to the nearest whole number.
 Uses [`floorConvert`](../functions/floorConvert.md).
@@ -232,7 +232,7 @@ Uses [`floorConvert`](../functions/floorConvert.md).
 
 > **get**(): `Record`\<`"microseconds"` \| `"milliseconds"` \| `"seconds"` \| `"minutes"` \| `"hours"` \| `"days"` \| `"weeks"` \| `"months"` \| `"years"` \| `"decades"` \| `"centuries"`, `number`\>
 
-Defined in: [chain.ts:22](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L22)
+Defined in: [chain.ts:22](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L22)
 
 Gets the time values of this chain.
 
@@ -246,7 +246,7 @@ Gets the time values of this chain.
 
 > **getUnit**(`unit`): `number`
 
-Defined in: [chain.ts:29](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L29)
+Defined in: [chain.ts:29](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L29)
 
 Get a specific unit from this chain.
 
@@ -266,7 +266,7 @@ Get a specific unit from this chain.
 
 > **multiply**(`time`): `ChainConvert`
 
-Defined in: [chain.ts:108](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L108)
+Defined in: [chain.ts:108](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L108)
 
 Multiplies time in this chain.
 This does not modify the total, instead it's by unit.
@@ -290,7 +290,7 @@ The time to multiply.
 
 > **multiplyTotal**(`time`, `unit`): `ChainConvert`
 
-Defined in: [chain.ts:182](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L182)
+Defined in: [chain.ts:182](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L182)
 
 Multiplies the total of this chain.
 Note that this will modify the total, not the individual units.
@@ -320,7 +320,7 @@ The unit of the time to multiply.
 
 > **reset**(): `ChainConvert`
 
-Defined in: [chain.ts:131](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L131)
+Defined in: [chain.ts:131](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L131)
 
 Resets the time in this chain.
 
@@ -334,7 +334,7 @@ Resets the time in this chain.
 
 > **roundConvert**(`precision?`): `Record`\<`"microseconds"` \| `"milliseconds"` \| `"seconds"` \| `"minutes"` \| `"hours"` \| `"days"` \| `"weeks"` \| `"months"` \| `"years"` \| `"decades"` \| `"centuries"`, `number`\>
 
-Defined in: [chain.ts:45](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L45)
+Defined in: [chain.ts:45](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L45)
 
 Rounds the time values of this chain to the specified precision.
 Uses [`roundConvert`](../functions/roundConvert.md).
@@ -355,7 +355,7 @@ Uses [`roundConvert`](../functions/roundConvert.md).
 
 > **subtract**(`time`): `ChainConvert`
 
-Defined in: [chain.ts:95](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L95)
+Defined in: [chain.ts:95](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L95)
 
 Subtracts time from this chain.
 This does not modify the total, instead it's by unit.
@@ -379,7 +379,7 @@ The time to subtract.
 
 > **subtractTotal**(`time`, `unit`): `ChainConvert`
 
-Defined in: [chain.ts:170](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L170)
+Defined in: [chain.ts:170](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L170)
 
 Subtracts time from the total of this chain.
 Note that this will modify the total, not the individual units.
@@ -409,7 +409,7 @@ The unit of the time to subtract.
 
 > **toJSON**(): `string`
 
-Defined in: [chain.ts:147](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/chain.ts#L147)
+Defined in: [chain.ts:147](https://github.com/jacobhumston/tc.js/blob/02ac7b9a1510a60d4dd0b79092623ee0625f9edf/src/chain.ts#L147)
 
 Converts this chain to a JSON string.
 This is the same as calling `JSON.stringify(chain.get())`.
