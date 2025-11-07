@@ -1,4 +1,4 @@
-[**@jacobhumston/tc.js**](../README.md) • **Docs**
+[**@jacobhumston/tc.js**](../README.md)
 
 ---
 
@@ -6,8 +6,10 @@
 
 # Interface: AvailableConversions
 
+Defined in: [conversions.ts:34](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L34)
+
 The available time conversions.
-Essentially the same as [conversions](../variables/conversions.md), but as a type with the values being optional.
+Essentially the same as [`conversions`](../variables/conversions.md), but as a type with the values being optional.
 
 ## Properties
 
@@ -15,11 +17,9 @@ Essentially the same as [conversions](../variables/conversions.md), but as a typ
 
 > `optional` **centuries**: `number`
 
+Defined in: [conversions.ts:56](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L56)
+
 The amount of centuries to provide.
-
-#### Defined in
-
-[conversions.ts:56](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L56)
 
 ---
 
@@ -27,11 +27,9 @@ The amount of centuries to provide.
 
 > `optional` **days**: `number`
 
+Defined in: [conversions.ts:46](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L46)
+
 The amount of days to provide.
-
-#### Defined in
-
-[conversions.ts:46](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L46)
 
 ---
 
@@ -39,9 +37,7 @@ The amount of days to provide.
 
 > `optional` **decades**: `number`
 
-#### Defined in
-
-[conversions.ts:54](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L54)
+Defined in: [conversions.ts:54](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L54)
 
 ---
 
@@ -49,11 +45,9 @@ The amount of days to provide.
 
 > `optional` **hours**: `number`
 
+Defined in: [conversions.ts:44](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L44)
+
 The amount of hours to provide.
-
-#### Defined in
-
-[conversions.ts:44](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L44)
 
 ---
 
@@ -61,11 +55,9 @@ The amount of hours to provide.
 
 > `optional` **microseconds**: `number`
 
+Defined in: [conversions.ts:36](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L36)
+
 The amount of microseconds to provide.
-
-#### Defined in
-
-[conversions.ts:36](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L36)
 
 ---
 
@@ -73,11 +65,9 @@ The amount of microseconds to provide.
 
 > `optional` **milliseconds**: `number`
 
+Defined in: [conversions.ts:38](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L38)
+
 The amount of milliseconds to provide.
-
-#### Defined in
-
-[conversions.ts:38](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L38)
 
 ---
 
@@ -85,11 +75,9 @@ The amount of milliseconds to provide.
 
 > `optional` **minutes**: `number`
 
+Defined in: [conversions.ts:42](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L42)
+
 The amount of minutes to provide.
-
-#### Defined in
-
-[conversions.ts:42](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L42)
 
 ---
 
@@ -97,11 +85,9 @@ The amount of minutes to provide.
 
 > `optional` **months**: `number`
 
+Defined in: [conversions.ts:50](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L50)
+
 The amount of months to provide.
-
-#### Defined in
-
-[conversions.ts:50](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L50)
 
 ---
 
@@ -109,11 +95,9 @@ The amount of months to provide.
 
 > `optional` **seconds**: `number`
 
+Defined in: [conversions.ts:40](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L40)
+
 The amount of seconds to provide.
-
-#### Defined in
-
-[conversions.ts:40](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L40)
 
 ---
 
@@ -121,11 +105,9 @@ The amount of seconds to provide.
 
 > `optional` **weeks**: `number`
 
+Defined in: [conversions.ts:48](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L48)
+
 The amount of weeks to provide.
-
-#### Defined in
-
-[conversions.ts:48](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L48)
 
 ---
 
@@ -133,8 +115,6 @@ The amount of weeks to provide.
 
 > `optional` **years**: `number`
 
+Defined in: [conversions.ts:52](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L52)
+
 The amount of years to provide.
-
-#### Defined in
-
-[conversions.ts:52](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L52)

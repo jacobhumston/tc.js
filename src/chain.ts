@@ -32,6 +32,7 @@ export class ChainConvert {
 
     /**
      * Converts the time values of this chain.
+     * Uses {@linkcode convert}.
      */
     convert() {
         return convert(this.time);
@@ -39,6 +40,7 @@ export class ChainConvert {
 
     /**
      * Rounds the time values of this chain to the specified precision.
+     * Uses {@linkcode roundConvert}.
      */
     roundConvert(precision?: number) {
         return roundConvert(this.time, precision);
@@ -46,6 +48,7 @@ export class ChainConvert {
 
     /**
      * Floors the time values of this chain to the nearest whole number.
+     * Uses {@linkcode floorConvert}.
      */
     floorConvert() {
         return floorConvert(this.time);
@@ -53,6 +56,7 @@ export class ChainConvert {
 
     /**
      * Convert the time values from this chain to a specific unit.
+     * Uses {@linkcode convertTo}.
      * @param unit The unit to get.
      * @returns The value of the unit.
      */
@@ -62,6 +66,7 @@ export class ChainConvert {
 
     /**
      * Convert to the total amount of microseconds from this chain.
+     * Uses {@linkcode convertToTotal}.
      * @returns The total amount of microseconds.
      */
     convertTotTotal() {

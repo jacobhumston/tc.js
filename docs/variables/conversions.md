@@ -1,4 +1,4 @@
-[**@jacobhumston/tc.js**](../README.md) • **Docs**
+[**@jacobhumston/tc.js**](../README.md)
 
 ---
 
@@ -8,10 +8,12 @@
 
 > `const` **conversions**: `object`
 
+Defined in: [conversions.ts:5](https://github.com/jacobhumston/tc.js/blob/5b9d9fa89398660ade834853067160dea3c28dda/src/conversions.ts#L5)
+
 Conversions, based on the amount of microseconds in x.
 Note that the month conversion and beyond is an approximation.
 
-## Type declaration
+## Type Declaration
 
 ### centuries
 
@@ -78,7 +80,3 @@ The amount of microseconds in a week.
 > **years**: `number` = `3.1556952e13`
 
 The amount of microseconds in a year.
-
-## Defined in
-
-[conversions.ts:5](https://github.com/jacobhumston/tc.js/blob/d10529ca342d5eaf02c25b075d22688b5dfd3995/src/conversions.ts#L5)

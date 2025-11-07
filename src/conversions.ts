@@ -29,7 +29,7 @@ export const conversions = {
 
 /**
  * The available time conversions.
- * Essentially the same as {@link conversions}, but as a type with the values being optional.
+ * Essentially the same as {@linkcode conversions}, but as a type with the values being optional.
  */
 export interface AvailableConversions {
     /** The amount of microseconds to provide. */
