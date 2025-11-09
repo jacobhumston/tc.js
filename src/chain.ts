@@ -10,6 +10,7 @@ export class ChainConvert {
 
     /**
      * Creates a new chain.
+     * Note that the provided time for this constructor is converted, use {@linkcode ChainConvert.add} to bypass this behavior.
      * @param time The time to chain.
      */
     constructor(time: AvailableConversions = {}) {
